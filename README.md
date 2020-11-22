@@ -1,4 +1,4 @@
-[![Packagist](https://img.shields.io/packagist/dt/drawmyattention/xerolaravel.svg)](https://packagist.org/packages/drawmyattention/xerolaravel)
+[![Packagist](https://img.shields.io/packagist/dt/adman9000/xerolaravel.svg)](https://packagist.org/packages/adman9000/xerolaravel)
 
 # Xero Accounting API Laravel 5 Wrapper
 
@@ -8,16 +8,16 @@ A Laravel 5 wrapper for calcinai/xero-php (a custom API for integrating with Xer
 
 **Require the package**
 
-    composer require drawmyattention/xerolaravel "1.0.*"
+    composer require adman9000/laravel-xero
 
 
 **Add the Service Provider to your ```config/app.php``` under ```providers```**
 
-    'DrawMyAttention\XeroLaravel\Providers\XeroServiceProvider',
+    'adman9000/laravel-xero\Providers\XeroServiceProvider',
    
 **Register the Facades within ```config/app.php``` under ```aliases```
 
-    'XeroPrivate'=> 'DrawMyAttention\XeroLaravel\Facades\XeroPrivate',
+    'XeroPrivate'=> 'adman9000/laravel-xero\Facades\XeroPrivate',
     
 **Publish the configuration file**
 
