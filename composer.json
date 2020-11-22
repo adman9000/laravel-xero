@@ -1,5 +1,5 @@
 {
-    "name": "adman9000/xerolaravel",
+    "name": "adman9000/laravel-xero",
     "description": "A Laravel 5 wrapper for Xero's PHP API forked from drawmyattention/xerolaravel",
     "require": {
         "calcinai/xero-php": "^2.2"
@@ -11,13 +11,13 @@
     ],
     "autoload": {
         "psr-4": {
-          "adman9000\\XeroLaravel\\": "/"
+          "adman9000\\laravel-xero\\": "/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "adman9000\\XeroLaravel\\Providers\\XeroServiceProvider"
+                "adman9000\\laravel-xero\\Providers\\XeroServiceProvider"
             ]
         }
     }
