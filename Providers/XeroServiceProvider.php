@@ -1,5 +1,5 @@
 <?php
-namespace DrawMyAttention\XeroLaravel\Providers;
+namespace adman_9000\xero\Providers;
 
 use Illuminate\Contracts\Filesystem\Filesystem;
 use Illuminate\Support\ServiceProvider;
