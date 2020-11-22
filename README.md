@@ -13,11 +13,11 @@ A Laravel 5 wrapper for calcinai/xero-php (a custom API for integrating with Xer
 
 **Add the Service Provider to your ```config/app.php``` under ```providers```**
 
-    'adman9000/laravel-xero\Providers\XeroServiceProvider',
+    'adman9000\LaravelXero\Providers\XeroServiceProvider',
    
 **Register the Facades within ```config/app.php``` under ```aliases```
 
-    'XeroPrivate'=> 'adman9000/laravel-xero\Facades\XeroPrivate',
+    'XeroPrivate'=> 'adman9000\LaravelXero\Facades\XeroPrivate',
     
 **Publish the configuration file**
 

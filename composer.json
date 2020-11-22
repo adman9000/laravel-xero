@@ -11,13 +11,13 @@
     ],
     "autoload": {
         "psr-4": {
-          "adman9000\\laravelxero\\": "/"
+          "adman9000\\LaravelXero\\": "/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "adman9000\\laravelxero\\Providers\\XeroServiceProvider"
+                "adman9000\\LaravelXero\\Providers\\XeroServiceProvider"
             ]
         }
     }
