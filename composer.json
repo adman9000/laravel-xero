@@ -1,24 +1,23 @@
 {
-    "name": "drawmyattention/xerolaravel",
-    "description": "A Laravel 5 wrapper for Xero's PHP API",
+    "name": "adman9000/xerolaravel",
+    "description": "A Laravel 5 wrapper for Xero's PHP API forked from drawmyattention/xerolaravel",
     "require": {
-        "calcinai/xero-php": "^1.6"
+        "calcinai/xero-php": "^2.2"
     },
     "authors": [
         {
-            "name": "Amo Chohan",
-            "email": "amo.chohan@gmail.com"
+            "name": "Adam Harding"
         }
     ],
     "autoload": {
         "psr-4": {
-          "DrawMyAttention\\XeroLaravel\\": "/"
+          "adman9000\\XeroLaravel\\": "/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "DrawMyAttention\\XeroLaravel\\Providers\\XeroServiceProvider"
+                "adman9000\\XeroLaravel\\Providers\\XeroServiceProvider"
             ]
         }
     }
