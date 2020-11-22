@@ -1,5 +1,5 @@
 <?php
-namespace adman_9000\LaravelXero\Facades;
+namespace adman9000\LaravelXero\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
