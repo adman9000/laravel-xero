@@ -50,8 +50,8 @@ return [
         |
         */
 
-        'rsa_private_key'  => 'file:///home/absolutepath/vendor/src/adman9000/laravelxero/Certificates/privatekey.pem',
-        'rsa_public_key'   => 'file:///home/absolutepath/vendor/src/adman9000/laravelxero/Certificates/publickey.cer'
+        'rsa_private_key'  => 'file:///home/absolutepath/vendor/src/adman9000/laravel-xero/Certificates/privatekey.pem',
+        'rsa_public_key'   => 'file:///home/absolutepath/vendor/src/adman9000/laravel-xero/Certificates/publickey.cer'
     ]
 
 ];
